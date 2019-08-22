@@ -1,0 +1,29 @@
+<p>login works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+                <table>
+                        <tr>
+                            <td>Username : </td>
+                            <td><input type="text" name="uname"/></td>
+                        </tr>
+                        <tr>
+                            <td>Password : </td>
+                            <td><input type="password" name="pswd"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" value="Login"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a (click)="signup()">Signup</a></td>
+                        </tr>
+                    </table>
+
+        </div>
+    </div>
+</div>
+
+<app-signup *ngIf="view"></app-signup>
+
